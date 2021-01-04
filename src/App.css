@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.button {
+  color: white;
+  background-color: deepskyblue;
+  box-sizing: border-box;
+  border: none;
+  height: 30px;
+  width: 120px;
+  padding: 7px;
+}
+
+.delete {
+  background-color: red;
+  margin-left: 5px;
+}
+
+.add-post {
+  align-self: flex-end;
+}
+
+.post-form {
+  width: 400px;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.textarea {
+  width: 100%;
+}
+
+.post-header{
+  align-self: flex-end;
+  width: 20px;
+}
+
+.post-form {
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.textarea {
+  height: 150px;
+}
+
+.post {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.post header, .post footer {
+  width: 100%;
+}
+
+.post main {
+  padding: 10px;
+  box-sizing: border-box;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.input {
+  width: 85%;
+}
+
+.edit {
+  margin-top: 15px;
+}
+
+.edit-header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 18px;
+}
